@@ -1,0 +1,287 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*
+html{
+    scroll-behavior: smooth;
+}
+*/
+
+body{
+   
+    position: flex;
+    align-items: center;
+    background:#DABA99;
+    width: 100%;
+
+}
+header{
+    background: url(../IMAGENES/beach-863139_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 8px black solid;
+    
+    
+    height:220px;
+}
+header img{
+    width:120px;
+    height:120px;
+    position: absolute;
+}
+
+
+header img{
+    width:245px;
+    height:245px;
+    position: absolute;
+    top:-30px;
+    left:50px;
+    rotate: 90px left;
+    transform:rotate(25deg);
+    
+}
+
+
+header h1 {
+    text-align:right;
+    margin-right:120px;
+    margin-top:22px;
+    font-style: oblique;
+    font-size: 105px;
+    font-family: "Helvetica Neue",Helvetica;
+    color:#DABA99;
+   
+    text-shadow: 5px 4px black;
+}
+ nav{
+    position: absolute;
+    top:235px;
+
+    background-color:	#36290D;
+    height:100px;
+    
+
+    margin-left: 10px;
+    width: 98.7%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border:8px black solid;
+       /*
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 8px black solid;
+   width:98%;
+    height:100px;
+  
+    background-color:#36290D;
+   
+    
+    
+    margin: 0px 8px  0px 8px;
+    justify-content: center;
+    align-items: center;
+  */
+  
+   
+}
+nav ul{
+    display: flex;
+    margin-top:23px;
+    line-height: 20px;
+    margin-left: 400px;
+    
+   
+    
+    
+}
+
+
+nav ul li:hover{
+    background-color:#927434;
+    color: #fff !important;
+   
+}
+nav ul li {
+    list-style: none;
+    position: relative;
+    width:160px;
+    height:42px;
+    margin: 0px 5px 0px;
+    z-index: 2;
+    
+    background-color:#DABA99;
+    border: 4px solid black;
+    transition: all 1s ease;
+    
+    
+}
+
+nav ul li a {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+   
+}
+
+nav ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 16px;
+    font-size: 1.2em;
+    
+    color:black;
+}
+
+
+nav ul li a .text{
+    position:absolute;
+    top:23px;
+    line-height: 6px;
+    color:Black;
+    font-weight: bold;
+    font-size:14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+ .galeria h1 {
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    background-color:#927434;
+    margin:10px 10px 10px 10px;
+    border:8px solid black;
+    
+}
+
+ .galeria{
+    position:relative;
+    top:100px;
+    margin-top: -10px;
+    
+}
+/*
+.galeria h1{
+    color:black;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+*/
+ table{
+    position:relative;
+    width:80%;
+    
+    margin: auto;
+    margin-top:50px;
+    border: 3px solid black;
+    
+}
+
+.tarjeta {
+    position:relative;
+    width:100%;
+    height:100%;
+    border: solid 12px #36290D;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+}
+ .tarjeta img {
+    position: relative;
+    width: 300px;
+    height:300px;
+    padding: 8px;
+    margin:0px 2px 0px 2px;
+    
+    backface-visibility: hidden;
+    
+    
+}
+
+
+.tarjeta:hover{
+    transform:rotateY(180deg);
+    background-color:#927434;
+    
+    
+    
+}
+
+.tarjeta .reverso{
+    position: absolute;
+    width: 300px;
+    height:300px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+   
+   
+    
+    
+
+}
+
+.reverso h2{
+    position: relative;
+    bottom:270px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#DABA99;
+    margin:20px;
+    border:4px solid black;
+    
+    
+   
+    
+}
+.reverso h4{
+    position: relative;
+    bottom:210px;
+    text-align: center;
+    margin: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#DABA99;
+    margin:20px;
+    border:4px solid black;
+   
+
+}
+
+
+
+footer{
+    position: relative;
+    bottom:-320px;
+    height: 65px;
+   
+    width: 100%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+footer h4{
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    
+    
+}
